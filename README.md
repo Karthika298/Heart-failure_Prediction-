@@ -6,9 +6,12 @@ The dataset used for modeling and evaluation consists of patient data related to
 * The dataset can be downloaded from the repository which is available as [Heart Failure prediction.csv](https://github.com/Karthika298/Heart-failure_Prediction-/blob/main/heart_failure_clinical_records_dataset%20(1).csv)
 ### Exploratory Data Analysis (EDA)
  * Analysis of target variable distribution to understand class balance or imbalance.
-* Visualization of numerical feature distributions using histograms to identify patterns and outliers.
-* Examination of correlations between features to understand relationships amongst them.
-* Exploration of how the target variable affects numerical features through plots such as violin plots and stacked bar plots.
+* Visualization of numerical feature distributions using **histograms** to identify patterns and outliers.
+* Examination of **correlations** between features to understand relationships amongst them.
+* Exploration of how the target variable affects numerical features through plots such as **violin plots** and **stacked bar plots**.
+### Tableau Dashboard Access
+A Tableau dashboard has been created and is publicly accessible via the following link: [Tableau Dashboard](https://public.tableau.com/app/profile/karthika.subramanian/viz/Book1_17122984217950/Dashboard1) 
+* Alternatively, users can also view the dashboard through  [GitHub Pages](https://github.com/Karthika298/Heart-failure_Prediction-/deployments/github-pages)
  ### Predictive Modeling
 The repository implements various classification algorithms to build predictive models for heart failure classification. The models are trained and evaluated using metrics such as accuracy, precision, recall, F1-score, and Area Under the ROC Curve (AUC-ROC).
 * In summary, **logistic regression**, **XGBoost, ETC, Support Vector Classifier, and Linear Discriminant Analysis** appear to be the top-performing models based on their high accuracy, MCC score, and balanced F1 score, precision, and recall. These models demonstrated good discrimination ability indicated by high AUC scores.
